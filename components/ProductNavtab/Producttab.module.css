@@ -1,0 +1,39 @@
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .tab.active {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .tabContent {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    display: none;
+  }
+  
+  .activeContent {
+    display: block;
+  }
+  
+  .content.activeContent {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  

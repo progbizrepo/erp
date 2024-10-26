@@ -1,0 +1,26 @@
+.formContainer{
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #E6E9EE;
+} 
+.formtitle{
+    color: #262626;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 6px;
+
+
+}
+.formdiscription{
+    font-size: 16px;
+    color: #666;
+    line-height: 25px;
+}
+@media (max-width:579.98px) {
+    .formContainer{
+        padding: 34px 19px;
+        border-radius: 20px;
+        border: 1px solid #E6E9EE;
+        text-align: center;
+    }
+}

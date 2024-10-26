@@ -1,0 +1,10 @@
+.ErpCounter,.ErpCounter span{
+    font-size: 28px;
+
+    line-height: 36px;
+}
+.Counterlabel{
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+}

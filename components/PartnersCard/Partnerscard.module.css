@@ -1,0 +1,23 @@
+.client_logo_Card{
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid #CCCCCC85;
+}
+.logoText{
+    color: #313435;
+
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.logoImage {
+    object-fit: cover; /* CSS equivalent of objectFit */
+  }
+  

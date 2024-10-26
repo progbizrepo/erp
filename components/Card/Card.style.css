@@ -1,0 +1,33 @@
+.CardComponent{
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    border-radius: 20px;
+    border: 1px solid #EDEFF3;
+    background: #F8F9FA;
+
+}
+
+.CardComponent .icon{
+   height: 48px;
+   width: 48px;
+   border-radius: 12px;
+   background: #DBFF99;
+   padding: 12px;
+}
+.CardComponentBody .heading{
+    font-size: 16px;
+
+line-height: 24px;
+color: #262626;
+margin-bottom: 10px;
+}
+
+.CardComponentBody .discription{
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+
+}

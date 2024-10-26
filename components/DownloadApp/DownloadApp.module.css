@@ -1,0 +1,50 @@
+.downloadSectionWrapper{
+    padding: 100px 80px;
+    border-radius: 24px;
+    background: radial-gradient(142.86% 141.63% at 50% -37.5%, #565656 0%, #262626 81.91%);
+    border:1px solid #FFF;
+    position: relative;
+    overflow: hidden;
+}
+.dashboardImage{
+    padding: 6px 12px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.10);
+    position: absolute;
+    right: -88px;
+    width: 582px !important;
+    /* top: 53px; */
+    object-fit: cover;
+}
+.image_position{
+    position: relative;
+}
+@media (max-width:1199.98px) {
+    .dashboardImage{
+        right: -190px;
+    }
+}
+@media (max-width:999.98px) {
+    .dashboardImage{
+       position: unset;
+ 
+    }
+    .downloadSectionWrapper{
+        padding: 70px 50px;
+    }
+   
+}
+@media (max-width:575.98px) {
+  
+    .downloadSectionWrapper{
+        padding: 40px 14px;
+        text-align: center !important;
+    }
+    .dashboardImage{
+        position: unset;
+        width: 100% !important;
+     }
+     .downloadSectionWrapper > .mainHead{
+        text-align: center !important;
+     }
+}

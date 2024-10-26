@@ -1,0 +1,8 @@
+@import 'locomotive-scroll/dist/locomotive-scroll.css';
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('/fonts/ClashGrotesk-Medium.woff2') format('woff2'),
+         url('/fonts/ClashGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }

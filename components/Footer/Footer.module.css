@@ -1,0 +1,97 @@
+.FooterWrapper{
+    padding: 110px 110px 40px 110px;
+    border-radius: 30px;
+    background: #191919;
+    margin: 20px;
+}
+.footerPara{
+    padding: 30px 20px 30px 0;
+    color: #B3B3B3;
+    font-size: 17px;
+    line-height: 25px;
+}
+.Social_Icon{
+    display: flex;
+    gap: 12px;
+}
+.Social_iconContainer{
+    padding: 12px;
+    border-radius: 12px;
+    background: #262626;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialLink li {
+    margin-bottom: 12px;
+}
+.socialLink .headerLink a{
+   color: #999;
+   font-size: 17px;
+ 
+
+}
+.socialLink li a{
+    color: #7F7F7F ;
+    font-size: 16px ;
+line-height: 24px;
+font-weight: normal
+ }
+.AppDownloadwrapper{
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #333;
+}
+.headTitle{
+    font-size: 16px !important;
+    color: #FFF !important;
+    margin-bottom: 16px !important;
+}
+.AppDownloadwrapper a{
+    padding: 16px 48px;
+    border-radius: 10px;
+    background: #262626;
+    margin-bottom: 10px;
+}
+.AppDownloadwrapper p{
+    font-size: 12px;
+    color: #B3B3B3;
+}
+.AppDownloadwrapper span{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+ .sitePolicy p, .sitePolicy a{
+color: #7F7F7F;
+font-size: 16px;
+
+}
+.sitePolicy{
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #262626;
+}
+@media (max-width:798.98px) {
+   .FooterWrapper {
+    padding: 50px 20px;
+    margin: 17px 11px;
+}
+.sitePolicy{
+    display: block;
+  
+    text-align: center;
+}
+.sitePolicy p {
+    margin-bottom: 10px;
+    } 
+    .footerPara{
+        font-size: 15px;
+    }
+    
+    
+}

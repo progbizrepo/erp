@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@/bootstrap/*": ["./node_modules/bootstrap/*"],
+    }
+  }
+}
